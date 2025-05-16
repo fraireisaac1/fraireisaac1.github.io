@@ -17,14 +17,14 @@ export const Resume = () => {
                                 <p className="text-gray-400 m-3">My resume has gone through a plethora of itterations since high school. This one I created at West-Mec with my knowledge of Tailwind CSS to properly style it.</p>
                                 <div className="flex flex-wrap gap-2 mb-4">
                                     {["Tailwind CSS", "HTML5"].map((tech, key) => (
-                                        <span key={key} className="bg-blue500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">{tech}</span>
+                                        <span key={key} className="bg-cyan-500/10 text-cyan-500 py-1 px-3 rounded-full text-sm hover:bg-cyan-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">{tech}</span>
                                     ))}
                                 </div>
                             </div>
                         </div>
 
                         <div className="flex justify-between items-center">
-                            <a href="https://github.com/fraireisaac1/Tailwind-Resume/tree/main" target="_blank" className="text-blue-400 hover:text-blue-300 transition-colors my-4">View Repository &rarr;</a>
+                            <a href="https://github.com/fraireisaac1/Tailwind-Resume/tree/main" target="_blank" className="text-cyan-400 hover:text-cyan-300 transition-colors my-4">View Repository &rarr;</a>
                         </div>
                     </div>
 
