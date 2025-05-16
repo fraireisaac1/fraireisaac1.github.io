@@ -16,7 +16,7 @@ export const About = () => {
                             <h3 className="text-xl font-bold mb-4">Languages</h3>
                             <div className="flex flex-wrap gap-2">
                                 {languages.map((tech, key) => (
-                                    <span key={key} className="bg-cyan-500/10 text-cyan-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition">
+                                    <span key={key} className="bg-cyan-500/10 text-cyan-500 py-1 px-3 rounded-full text-sm hover:bg-cyan-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition">
                                         {tech}
                                     </span>
                                 ))}
@@ -26,7 +26,7 @@ export const About = () => {
                             <h3 className="text-xl font-bold mb-4">Technologies</h3>
                             <div className="flex flex-wrap gap-2">
                                 {technologies.map((tech, key) => (
-                                    <span key={key} className="bg-cyan-500/10 text-cyan-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition">
+                                    <span key={key} className="bg-cyan-500/10 text-cyan-500 py-1 px-3 rounded-full text-sm hover:bg-cyan-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition">
                                         {tech}
                                     </span>
                                 ))}
@@ -36,7 +36,7 @@ export const About = () => {
                             <h3 className="text-xl font-bold mb-4">Tools</h3>
                             <div className="flex flex-wrap gap-2">
                                 {tools.map((tech, key) => (
-                                    <span key={key} className="bg-cyan-500/10 text-cyan-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition">
+                                    <span key={key} className="bg-cyan-500/10 text-cyan-500 py-1 px-3 rounded-full text-sm hover:bg-cyan-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition">
                                         {tech}
                                     </span>
                                 ))}
