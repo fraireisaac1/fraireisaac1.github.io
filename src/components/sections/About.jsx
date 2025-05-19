@@ -1,8 +1,8 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
-    const languages = ["HTML5", "CSS3", "JavaScript", "PHP", "TypeScript", "SQL", "Markdown", "JSON", "Node"];
-    const technologies = ["Windows", "Linux", "Laravel", "React", "Express", "MongoDB", "Boostrap", "Tailwind"];
+    const languages = ["HTML5", "CSS3", "JavaScript", "PHP", "TypeScript", "SQL", "Markdown", "JSON"];
+    const technologies = ["Windows", "Linux", "Laravel", "Node", "React", "Express", "MongoDB", "Boostrap", "Tailwind"];
     const tools = ["VSCode", "Vim", "Emmet", "Powershell", "TMUX", "Phaser", "Git", "Github", "Virtual Box"];
 
     return <section id="about" className="min-h-screen flex items-center justify-center py-20">
@@ -67,7 +67,6 @@ export const About = () => {
                         <h3 className="text-xl font-bold mb-4">Volunteerism</h3>
                         <div className="space-y-4 text-gray-300">
                             <div>
-                                <h4 className="font-semibold">Software Engineer at ABC Corp (NOT A REAL JOB!)</h4>
                                 <h4 className="font-semibold">West Mec FBLA</h4>
                                 <p>Compently worked Help Desk at multiple West Mec Open House events. Promoted the high-caliber program, and provided detailed information about the technologies we use.</p>
                                 <p>Built decorations and helped create a custom car design for a community Trunk or Treat event to pass out candy and play games with families 2 years in a row.</p>
